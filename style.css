@@ -384,23 +384,13 @@ body {
   color: var(--accent-blue);
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.86rem;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  padding-top: 2px;
 }
 
 .project-link:hover {
   text-decoration: underline;
-}
-
-/* Footer */
-.cv-footer {
-  margin-top: 32px;
-  padding-top: 14px;
-  border-top: 1px solid var(--border-light);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.78rem;
-  color: var(--text-muted);
 }
 
 /* ================= RESPONSIVE DESIGN ================= */
